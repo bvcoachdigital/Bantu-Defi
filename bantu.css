@@ -1,5 +1,5 @@
 body {
-    margin: 0px;
+    margin: 0 auto;
     padding-top: 10px;
     font-family: "poppins", sans-serif;
   }
@@ -10,7 +10,9 @@ body {
   }
 
   .header{
-    padding: 0 45px 0 45px;
+    margin-left: 200px;
+    padding: 20px;
+    max-width: 1200px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -20,7 +22,7 @@ body {
   
   .nav-menu {
     list-style: none;
-    margin-left: 600px;
+    margin-left: 500px;
     padding: 0px;
     display: flex;
     justify-content: space-between;
@@ -56,14 +58,17 @@ body {
 
 
   .hero {
-    background-color: #fff9ea;
+    border: 1px solid goldenrod;
     padding: 60px 45px;
     display: flex;
     justify-content: center;
   }
   
   .hero-inner{
-    width: 760px;
+    width: 1200px;
+    height: 500px;
+    border-radius: 50px;
+    background-color: #fff9ea;
   }
   
   .hero h1 {
